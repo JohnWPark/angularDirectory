@@ -1,9 +1,9 @@
-angular.module('directoryApp', [])
+angular.module('directoryApp', ['ngAnimate'])
   .controller('directoryCtrl', function(){
 
     var dirList = this;
 
-    dirList.toggle = false;
+    dirList.toggle = true;
 
     dirList.list = [
       {name:'Scott', age: 29, img:'https://s3.amazonaws.com/uifaces/faces/twitter/towhidzaman/128.jpg'},
