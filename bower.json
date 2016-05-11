@@ -1,0 +1,17 @@
+{
+  "name": "angularDirectory",
+  "homepage": "https://github.com/JohnWPark/angularDirectory",
+  "authors": [
+    "John Park <jwpark417@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

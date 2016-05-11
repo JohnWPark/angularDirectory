@@ -1,4 +1,18 @@
-angular.module('directoryApp', ['ngAnimate'])
+angular.module('directoryApp', ['ngAnimate', 'ui.router'])
+  .config(function($stateProvider, $urlRouterProvider) {
+
+    $urlRouterProvider.otherwise('/');
+
+    $stateProvider
+      .state('home', {
+        url: '/',
+        template: '<h1>Hello</h1>'
+      })
+      .state('about', {
+        url: '/about',
+        template: '<h1>About</h1>'
+      });
+  })
   .controller('directoryCtrl', function(){
 
     var dirList = this;
